@@ -1,0 +1,9 @@
+# You should own the domain
+# Point A -> IP of your server
+
+# Move this to /etc/caddy/Caddyfile
+
+your.domain.com {
+	# set up a reverse proxy:
+	reverse_proxy localhost:3000
+}
